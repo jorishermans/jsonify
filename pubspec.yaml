@@ -1,0 +1,10 @@
+name: jsonify
+description: >
+  A library useful for objects to serialize it and make a json represention of it.
+version: 0.0.1
+author: Joris Hermans <hermansj@gmail.com>
+homepage: https://github.com/jorishermans/jsonify
+#dependencies:
+#  lib_name: any
+dev_dependencies:
+  unittest: any
