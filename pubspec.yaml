@@ -6,3 +6,5 @@ author: Joris Hermans <hermansj@gmail.com>
 homepage: https://github.com/jorishermans/jsonify
 dev_dependencies:
   test: any
+environment:
+  sdk: '>=2.0.0 <3.0.0'
