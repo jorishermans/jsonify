@@ -7,4 +7,5 @@ homepage: https://github.com/jorishermans/jsonify
 #dependencies:
 #  lib_name: any
 dev_dependencies:
-  unittest: any
+#  unittest: any
+  test: any
