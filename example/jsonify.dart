@@ -21,6 +21,6 @@ class Book extends Object with Jsonify {
 
 main() {
   Book book = new Book("JK Rowling", "Harry Potter", "1232213343221");
-  var jsonBook = JSON.encode(book);
+  var jsonBook = jsonEncode(book);
   print('book: ${jsonBook}');
 }

@@ -3,7 +3,7 @@
 
 library jsonify.test;
 
-import 'package:unittest/unittest.dart';
+import 'package:test/test.dart';
 import 'package:jsonify/jsonify.dart';
 import 'dart:convert';
 
@@ -27,7 +27,7 @@ main() {
 
     setUp(() {
       book = new Book("JK Rowling", "Harry Potter", "1232213343221");
-      jsonBook = JSON.encode(book);
+      jsonBook = jsonEncode(book);
     });
 
     test('Book encode with json', () {

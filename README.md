@@ -22,7 +22,7 @@ First of all you can create an object like this:
 Then you can create an object and encode it into json:
 
     Book book = new Book("JK Rowling", "Harry Potter", "1232213343221");
-    var jsonBook = JSON.encode(book);
+    var jsonBook = jsonEncode(book);
 
 ## Contributing
  
